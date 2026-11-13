@@ -10,7 +10,7 @@ from typing import Any
 import requests
 
 
-RUNPOD_API_URL = "https://rest.runpod.io/v1"
+RUNPOD_API_URL = "https://api.runpod.io/v2"
 
 
 def runpod_headers(api_key: str) -> dict[str, str]:
